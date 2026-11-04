@@ -1,0 +1,15 @@
+streamlit>=1.32
+plotly>=5.20
+langchain>=0.2
+langchain-classic>=1.0   # provides the classic AgentExecutor API under LangChain 1.x
+langchain-core>=0.2
+langchain-text-splitters>=0.2
+langchain-ollama>=0.1
+langchain-openai>=0.1
+langchain-google-genai>=2.0
+sentence-transformers>=2.7
+faiss-cpu>=1.8
+python-dotenv>=1.0
+pydantic>=2.0
+numpy>=1.26
+pytest>=8.0

@@ -1,0 +1,17 @@
+{
+  "title": "Nike — stock performance diagnosis",
+  "note": "Qualitative signals from the Nike_stock_analysis technical + fundamental study (no fabricated price figures).",
+  "signals": [
+    {"label": "Earnings reaction", "value": "Sharp decline", "detail": "Market reacted unfavourably to the earnings report (weaker sales / softer outlook)."},
+    {"label": "CEO transition", "value": "Neutral", "detail": "Slight uptick, no stabilisation — not the primary cause of weakness."},
+    {"label": "RSI (mid-July)", "value": "Oversold (<30)", "detail": "Excessive selling pressure."},
+    {"label": "RSI (mid-Sept)", "value": "Overbought (>70) then rolling over", "detail": "Losing bullish momentum; high volatility throughout."},
+    {"label": "Valuation vs Adidas", "value": "Higher P/E, lower EPS", "detail": "Priced for future growth over current profitability — sensitive to earnings misses."}
+  ],
+  "action_plan": [
+    "Protect margins now: cost-cutting and supply-chain efficiency.",
+    "Double down on DTC & digital transformation (e.g. SNKRS) to defend the growth narrative.",
+    "Lead with innovation and manage earnings guidance to justify the premium valuation."
+  ],
+  "takeaway": "Weakness is driven by an earnings miss and a stretched growth valuation, not the CEO change; defend margins and the DTC/innovation growth story."
+}

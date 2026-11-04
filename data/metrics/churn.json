@@ -1,0 +1,28 @@
+{
+  "title": "PowerCo — SME churn model",
+  "clients": 14606,
+  "churn_rate": 0.097,
+  "churn_count": 1419,
+  "model": "Random Forest (n_estimators=1000, 75/25 split)",
+  "metrics": {
+    "Accuracy": 0.9033,
+    "Precision": 0.9166,
+    "Recall": 0.0589,
+    "F1": 0.1108,
+    "AUC": 0.5291
+  },
+  "metrics_note": "High accuracy is an artifact of the 9.7% base rate. Recall 0.06 and AUC ~0.53 mean the model barely beats random at actually catching churners.",
+  "top_drivers": [
+    "Net margin on power subscription",
+    "12-month consumption",
+    "Forecast meter-rental bill (next ~2 months)",
+    "Tenure — months active",
+    "Months since last product update / renewal"
+  ],
+  "signals": [
+    "Clients with <=4 months tenure churn markedly more (~4pp jump between months 4 and 5).",
+    "Customers who also buy gas churn ~2% less (multi-product loyalty).",
+    "Price sensitivity (Dec-Jan off-peak price change) is a WEAK churn signal."
+  ],
+  "takeaway": "Price alone does not explain churn. A blanket 20% discount is poorly targeted; prioritise early-life onboarding, margin-aware retention and gas cross-sell, and fix the model (rebalance, tune threshold, optimise recall) before trusting it."
+}
